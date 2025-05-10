@@ -1,0 +1,44 @@
+.container {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  background: linear-gradient(to right, #00f5a0, #00d9f5);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.link {
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.link:hover {
+  color: #00d9f5;
+  text-decoration: underline;
+  transition: all 0.3s ease;
+}
+.logout {
+  padding: 7px;
+  border: none;
+  cursor: pointer;
+  background-color: #31b22ff1;
+  color: #fff;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+.logout:hover {
+  background-color: #5cbf7f;
+}
+.logout:active {
+  background-color: #4cae4c;
+}
